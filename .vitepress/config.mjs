@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-    base: '/pages-demo/'
+    base: '/pages-demo/',
     title: "test-docs",
     description: "Demo for creating public static github pages with VitePress.",
     appearance: false,
