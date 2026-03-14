@@ -5,7 +5,7 @@ export default defineConfig({
     description: "Demo for creating public static github pages with VitePress.",
     appearance: false,
     lang: 'en-US',
-    base: '/pages-demo/'
+    base: '/pages-demo'
     head: [
         [
             'link',
