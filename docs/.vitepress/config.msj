@@ -1,0 +1,17 @@
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+    title: "test-docs",
+    description: "Demo for creating public static github pages with VitePress.",
+    appearance: false,
+    srcDir: '../docs/',
+    head: [
+        [
+            'link',
+            {
+                rel: 'stylesheet', 
+                href: 'https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap'
+            }
+        ]
+    ]
+})
