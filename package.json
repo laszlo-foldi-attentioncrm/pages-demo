@@ -8,9 +8,9 @@
     "url": "https://www.linkedin.com/in/l%C3%A1szl%C3%B3-f%C3%B6ld/"
   },
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview"
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
   "dependencies": {
     "vitepress": "^1.6.3"

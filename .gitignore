@@ -24,8 +24,8 @@ $RECYCLE.BIN/
 .DS_Store
 
 # VitePress files
-docs/.vitepress/cache
-docs/.vitepress/dist
+.vitepress/cache
+.vitepress/dist
 
 # Dependency directories
 node_modules/
