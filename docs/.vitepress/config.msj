@@ -4,7 +4,8 @@ export default defineConfig({
     title: "test-docs",
     description: "Demo for creating public static github pages with VitePress.",
     appearance: false,
-    srcDir: '../docs/',
+    lang: 'en-US',
+    base: '/pages-demo/'
     head: [
         [
             'link',
