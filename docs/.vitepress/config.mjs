@@ -7,6 +7,6 @@ export default defineConfig({
     appearance: true,
     head: [
         [ 'link', { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap' } ],
-        [ 'link', { rel: 'icon', href: '/fav_icon.png' } ]
+        [ 'link', { rel: 'icon', href: '/public/fav_icon.png' } ]
     ]
 })
